@@ -102,3 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#intelij
+/.idea/
+/tmp/
+/bin/
+*.test
+*.swp
