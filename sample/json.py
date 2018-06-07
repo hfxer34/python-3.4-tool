@@ -14,5 +14,7 @@ ys["nozomi"] = cl.OrderedDict({"B": 90, "W": 60, "H": 82})
 ys["hanayo"] = cl.OrderedDict({"B": 82, "W": 60, "H": 83})
 ys["niko"]   = cl.OrderedDict({"B": 74, "W": 57, "H": 79})
 
+
+
 print(ys)
 #出力：OrderedDict([('honoka', OrderedDict([('B', 78), ('H', 82), ('W', 58)])), ('eri', OrderedDict([('B', 88), ('H', 84), ('W', 60)])), ('kotori', OrderedDict([('B', 80), ('H', 80), ('W', 58)])), ('umi', OrderedDict([('B', 76), ('H', 80), ('W', 58)])), ('rin', OrderedDict([('B', 75), ('H', 80), ('W', 59)])), ('maki', OrderedDict([('B', 78), ('H', 83), ('W', 56)])), ('nozomi', OrderedDict([('B', 90), ('H', 82), ('W', 60)])), ('hanayo', OrderedDict([('B', 82), ('H', 83), ('W', 60)])), ('niko', OrderedDict([('B', 74), ('H', 79), ('W', 57)]))])
