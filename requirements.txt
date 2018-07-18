@@ -1,0 +1,7 @@
+$ echo "python-dateutil" > requirements.txt
+$ echo "flake8" > testRequirements.txt
+$ pip install -r requirements.txt -r testRequirements.txt
+$ pip freeze > constraints.txt
+$ cat constraints.txt
+requests==2.19.1
+$ pip install -r requirements.txt -r testRequirements.txt -c constraints.txt
